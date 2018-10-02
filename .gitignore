@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#Ignore
+main.min.scss
+
 # Distribution / packaging
 .Python
 build/
