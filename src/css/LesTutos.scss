@@ -1,0 +1,32 @@
+//main: main.scss
+
+.LesTutos{
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    .Tuto {
+      background-color: #C75050;
+      .contenu {
+        background-color: white;
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+
+@media all and (max-width:850px) {
+  .LesTutos {
+    div {
+      flex-direction: column;
+      .Tuto {
+        width: 100%;
+        .Utilisateur {
+          h2 {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

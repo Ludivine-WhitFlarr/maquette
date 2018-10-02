@@ -1,0 +1,39 @@
+//main: main.scss
+
+.Tuto {
+  width: 50%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  .Utilisateur {
+    display: flex;
+    padding-left: 1vw;
+    margin-bottom: 1em;
+    div:first-child {
+      width: 80px;
+      height: 80px;
+      background-color: #C4C4C4;
+      border-radius: 50%;
+    }
+    h2 {
+      margin-top: auto;
+      margin-bottom: auto;
+      font-size: 3.3em;
+      margin-left: 0.7em;
+      font-family: 'Emilys';
+      font-weight: 100;
+      color:white;
+    }
+  }
+  .contenu {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    p{
+      color: #000000;
+      padding-top: 4em;
+      padding-bottom: 4em;
+      padding-left: 0.5em;
+      font-family: "Emilys";
+      font-size: 1.3em;
+    }
+  }
+}
