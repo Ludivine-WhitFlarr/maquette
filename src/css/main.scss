@@ -62,7 +62,7 @@ body {
       flex-direction: row;
       justify-content: space-around;
       background-color: white;
-      >li{
+      > li{
         font-family: 'Bedfort';
         font-size: 3em;
         list-style: none;
@@ -76,3 +76,5 @@ body {
 @import "./erreur.scss";
 @import "./contact.scss";
 @import "./galerie.scss";
+@import "./Tuto";
+@import "./LesTutos";
